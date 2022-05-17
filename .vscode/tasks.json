@@ -1,0 +1,13 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "docs",
+			"path": "EstruturasDeDados2022/",
+			"problemMatcher": [],
+			"label": "npm: docs - EstruturasDeDados2022",
+			"detail": "./node_modules/.bin/jsdoc -c jsdoc.json"
+		}
+	]
+}
