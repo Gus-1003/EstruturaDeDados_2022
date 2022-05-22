@@ -78,13 +78,7 @@ class Conjunto{
 		}
 		return true;
     }
-
-
-
-
-
-    
-
+	
     isEqual(anotherset){
         return this.contains(anotherset) && anotherset.contains(this);
     }
