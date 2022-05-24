@@ -20,10 +20,11 @@ function quickSort(array, inferior, superior) {
         quicksort(array, pivo_pos+1, superior)
 
     }
-    
+
     return array; 
 }
 
+export default quickSort;
 /* 
 - Quick Sort é um algoritmo eficiente de ordenação.
 
