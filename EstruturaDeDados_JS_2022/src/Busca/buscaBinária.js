@@ -8,11 +8,17 @@ function buscaBinaria (chave, tabela) {
     let direita = tabela.lenght;
 
     while (esquerda < direita-1) {
+
         let meio = (esquerda + direita)/2;
+        
         if (tabela[meio] < chave){
+
             esquerda = meio;
+
         }else{
+
             direita = meio;
+
         }
     }
 
