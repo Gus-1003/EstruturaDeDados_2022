@@ -11,6 +11,8 @@ function mergeSort(array){ // Tem como função quebrar - No final retornando os
     return merge(mergeSort(esquerda), mergeSort(direita));
 }
 
+
+
 function merge(esquerda, direita){
     let iteraEsquerda = 0;
     let iteraDireita = 0;
