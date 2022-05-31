@@ -1,4 +1,8 @@
-# Estruturas de Dados com JavaScript:
+# Estruturas de Dados - 2022.1 - TADS - EAJ - UFRN:
+	- Linguagem: Java Script
+	- Framework: Node.js
+	- A base da criação desse repositório se sustenta em "Desenvolvimento Dirigido a Testes". Onde ao desenvolver as estruturas|Algoritmos
+	realizamos testes como uma forma de validar a prática.
 
 ## Estruturas abstratas Estudadas:
 	- Pilha
@@ -8,6 +12,8 @@
 	- Lista
 		+ Lista Duplamente Ligada
 	- Conjunto
+
+## Análise de Algoritmos - Complexidade - Notação Big "O"
 	
 ## Algoritmos de Ordenação:
 	- Bubble Sort
