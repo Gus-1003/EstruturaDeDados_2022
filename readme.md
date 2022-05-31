@@ -2,7 +2,7 @@
 	- Este reposítório contém todos os códigos utilizados durante a disciplina de Estruturas de Dados do curso de Análise 
 	e Desenvolvimento de Sistemas/UFRN no semestre 2022.1.
 
-	- A disciplina de Estruturas de dados segue uma abordagem de desenvolvimento dirigido as testes (TDD)
+	- A disciplina de Estruturas de dados segue uma abordagem de desenvolvimento dirigido a testes (TDD)
 	onde para cada Tipo Abstrato de Dados:
 		+ Será descrito o Tipo Abstrato de Dados e suas funções independente de saber como elas são implementadas ou como 
 		os dados serão armazenados.
