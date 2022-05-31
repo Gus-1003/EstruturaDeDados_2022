@@ -22,6 +22,9 @@
 	- Conjunto
 
 ## Análise de Algoritmos - Complexidade - Notação Big "O"
+	- Tipos (Baseado no recurso alvo):
+		+ Relação: Aplicação -> Tempo 
+		+ Relação: Aplicação -> Memória
 	
 ## Algoritmos de Ordenação:
 	- Bubble Sort
