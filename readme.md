@@ -13,7 +13,7 @@
 	- É implementada a classe, em JavaScript, para representar o Tipo Abstrato de Dados.
 
 ## Estruturas abstratas Estudadas:
-	- Pilha
+	- Pilha / Stack
 	- Fila (Infinita)
 		+ Fila Circular
 		+ Fila de Prioridade (Heap)
@@ -43,6 +43,7 @@
 		+ Busca Binaria Recursiva
 		
 	- Tabela Hash - Dicionário
+	- Árvore Binária de Busca (Binary Search Tree)
 
 ## Referências:
 	+ Slides - TADS.2022 - UFRN: https://drive.google.com/drive/folders/1rDfeDOs6NWSvr4s-P9hMRwTaDZf8H6-o?usp=sharing
