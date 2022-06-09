@@ -46,4 +46,8 @@
 	- Árvore Binária de Busca (Binary Search Tree)
 
 ## Referências:
-	+ Slides - TADS.2022 - UFRN: https://drive.google.com/drive/folders/1rDfeDOs6NWSvr4s-P9hMRwTaDZf8H6-o?usp=sharing
+	- Slides - TADS.2022 - UFRN: https://drive.google.com/drive/folders/1rDfeDOs6NWSvr4s-P9hMRwTaDZf8H6-o?usp=sharing
+	
+## Listas respondidas:
+	- 1. https://www.youtube.com/playlist?list=PL7nNCQKK1-XwutS2WYr6eAboIDzvGL6lF
+	- 2. https://www.youtube.com/playlist?list=PL7nNCQKK1-XyoBM6gPOuBoQ4PAPrVOtTc
