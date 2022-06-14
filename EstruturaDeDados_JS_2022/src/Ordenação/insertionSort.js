@@ -1,3 +1,9 @@
+/*
+Funcionamento: 
+    - Presumindo que o começo esteja ordenado, o algoritmo começara a partir do indice 1 do array;
+    - Base: https://www.geeksforgeeks.org/insertion-sort/
+
+*/
 function insertionSort(dadosNaoOrdenados){
 
     for (let i = 1; i < dadosNaoOrdenados.length; i++) {
