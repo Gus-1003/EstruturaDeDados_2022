@@ -35,15 +35,15 @@ class ArvoreAVL {
 
 		console.log("Equilibrio do node " + node.key + " é " + equilibrio);
 
-				/*
-						[D]
-				 [C]           [E]
-			[B]
-		[A]
-					[D]
-			[B]           	[E]
-		[A]      [C]
-		*/
+						/*
+								[D]
+						 [C]           [E]
+					[B]
+				[A]
+							[D]
+					[B]           	[E]
+				[A]      [C]
+				*/
 
 		// Rotacao a direita
 		if ( equilibrio < -1 && /*dado < raiz->esq->dado*/ this.balance(node.esq) < 0) {
@@ -213,15 +213,15 @@ class ArvoreAVL {
 		return x;
 	}
 
-    /*
-        Y                               X
-      /  \                            /   \ 
-      T1   X     rotacaoEsquerda(Y)   Y      Z
-        /  \   - - - - - - - ->    / \    / \
-         T2   Z                     T1  T2 A   B
-           / \
-           A  B
-    */
+		    /*
+			Y                               X
+		      /  \                            /   \ 
+		      T1   X     rotacaoEsquerda(Y)   Y      Z
+			/  \   - - - - - - - ->    / \    / \
+			 T2   Z                     T1  T2 A   B
+			   / \
+			   A  B
+		    */
 	rotacaoEsquerda(y) {
 		var x = y.dir;
 		y.dir = x.esq;
