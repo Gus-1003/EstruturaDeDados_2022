@@ -1,15 +1,20 @@
+/*
+- Fonte de Pesquisa: https://www.geeksforgeeks.org/bubble-sort/?ref=gcse
+- Objetivo da Estrutura:
+    1 - Percorre todo o array e troca repetidamente os elementos **"adjacentes"** se eles estiverem na ordem errada.
+*/
+
 function bubbleSort(dadosNaoOrdenados){
 
     let DadosOrdenados;
-
+    
+    // --------------- Laço do X - Quem compara:   -------------------------------------------------
     for(i=0; i < dadosNaoOrdenados.length; i++){
-
-        // O I acaba tendo que rodar todo o array
         
+        // --------------- Laço do y - Quem está sendo comparado:   -------------------------------------------------
         for(j=0; j <= dadosNaoOrdenados.length - 1 - i; j++){
-            
-            // O J para no penultimo já que ele já consegue olhar para o ultimo;
-
+         
+            // --------------- caso o próximo indice guarde um valor maior que o atual:  -> Troque  --------------------------------------------
             if(dadosNaoOrdenados[j] > dadosNaoOrdenados[j++]){
 
                 aux = dadosNaoOrdenados[j]
