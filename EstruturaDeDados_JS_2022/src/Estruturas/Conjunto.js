@@ -54,7 +54,7 @@ class Conjunto{
 		return AuB;
 	}
 
-    intersection(anotherset){
+	intersection(anotherset){
 		let AiB = new Conjunto();
 
 		let valoresB = anotherset.values();
@@ -66,10 +66,10 @@ class Conjunto{
 		}
 
 		return AiB;
-    }
+	}
 
-    contains(anotherset){
-        let valoresB = anotherset.values();
+	contains(anotherset){
+		let valoresB = anotherset.values();
 
 		for (const j of valoresB) {
 			if (!this.has(j)) {
@@ -77,13 +77,13 @@ class Conjunto{
 			}
 		}
 		return true;
-    }
-	
-    isEqual(anotherset){
-        return this.contains(anotherset) && anotherset.contains(this);
-    }
+	}
 
-    difference(anotherset) {
+	isEqual(anotherset){
+		return this.contains(anotherset) && anotherset.contains(this);
+	}
+
+	difference(anotherset) {
 		let AdB = new Conjunto();
 		let valoresA = this.values();
 		let valoresB = anotherset.values();
