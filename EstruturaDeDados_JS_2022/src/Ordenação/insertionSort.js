@@ -1,20 +1,25 @@
 /*
-Funcionamento: 
-    - Presumindo que o começo esteja ordenado, o algoritmo começara a partir do indice 1 do array;
-    - Base: https://www.geeksforgeeks.org/insertion-sort/
-
+- Fonte de Pesquisa: https://www.geeksforgeeks.org/insertion-sort/
+- Objetivo da Estrutura:
+    1 - A lógica do algoritmo inserction funciona como si você estivesse adicionando novos valores e comparando os os anteriores;
+    2 - Ao andar no array você compara si o valor atual é menor que o anterior, enquanto for, troque;
 */
-function insertionSort(dadosNaoOrdenados){
 
+function insertionSort(dadosNaoOrdenados){
+    
+    // --------------- Laço principal que percorre a estrutura:   -------------------------------------------------
     for (let i = 1; i < dadosNaoOrdenados.length; i++) {
 
-        let escolhido =  dadosNaoOrdenados[i];
+        let escolhido =  dadosNaoOrdenados[i]; // Váriavel que irá guardar o indice que possui o menor valor - Si iniciará a partir do indice 1
 
-        j = i-1;
-
-        while(j >= 0 && dadosNaoOrdenados[j] > escolhido){
-            dadosNaoOrdenados[j+1] = dadosNaoOrdenados[j];
-            j = j-1;
+        j = i-1; // O "J" será o indice que: "Caso tiver um valor maior que o atual "I", será substituido. - O J começa do 0
+        
+        // ---------------  Enquanto o valor atual for menor que seu anterior:  -------------------------------------------------
+        while(j >= 0 && dadosNaoOrdenados[j] > escolhido){ // O J, como um indice, não pode ser negativo (Condição de parada) AND O valor em J é maior que o valor em I
+            
+            //    12   	   11   	   13   	   5   	   6   
+            dadosNaoOrdenados[j+1] = dadosNaoOrdenados[j];          // Não estou entendendo - Aqui deveria ocorrer trocas 
+            j = j-1; // sair do laço
         }
 
         dadosNaoOrdenados[j+1] = escolhido;
