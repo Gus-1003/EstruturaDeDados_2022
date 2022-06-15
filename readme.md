@@ -12,42 +12,28 @@
 	
 	- É implementada a classe, em JavaScript, para representar o Tipo Abstrato de Dados.
 
-## Estruturas abstratas Estudadas:
-	- Pilha / Stack
-	- Fila (Infinita)
-		+ Fila Circular
-		+ Fila de Prioridade (Heap)
-	- Lista
-		+ Lista Duplamente Ligada
-	- Conjunto
+## Conteudos Principais:
+	- Estruturas abstratas 
+	- Análise de Algoritmos - Complexidade - Notação Big "O"
+	- Algoritmos de Ordenação
+	- Algoritmos de Busca
 
 ## Análise de Algoritmos - Complexidade - Notação Big "O"
 	- Tipos (Baseado no recurso alvo):
 		+ Relação: Aplicação -> Tempo 
 		+ Relação: Aplicação -> Memória
-	
-## Algoritmos de Ordenação:
-	- Bubble Sort
-	- Selection Sort
-	- Insertion Sort
-	
-	- Quick Sort
-	- Merge Sort
-	
-	- Heap Sort (Estudado junto com Fila de prioridade)
 
-## Algoritmos de Busca:
-	- Busca Sequencial
-	
-	- Busca Binaria
-		+ Busca Binaria Recursiva
-		
-	- Tabela Hash - Dicionário
-	- Árvore Binária de Busca (Binary Search Tree)
 
 ## Referências:
+### TADS:
 	- Slides - TADS.2022 - UFRN: https://drive.google.com/drive/folders/1rDfeDOs6NWSvr4s-P9hMRwTaDZf8H6-o?usp=sharing
+### Sites:
+	- Tutorials Point - https://www.tutorialspoint.com/data_structures_algorithms/algorithms_basics.htm
+	- Geeks of Geeks - https://www.geeksforgeeks.org/data-structures/
+	- Geeks of Geeks - https://www.geeksforgeeks.org/fundamentals-of-algorithms/?ref=lbp
+### Livro: 
+	- Algoritmo_ED_Cormem - https://drive.google.com/file/d/15GUWfeE0SN4neCgV-WyINF5lFV_fuGEy/view?usp=sharing
 	
-## Listas respondidas:
+## Listas de questões respondidas:
 	- 1. https://www.youtube.com/playlist?list=PL7nNCQKK1-XwutS2WYr6eAboIDzvGL6lF
 	- 2. https://www.youtube.com/playlist?list=PL7nNCQKK1-XyoBM6gPOuBoQ4PAPrVOtTc
